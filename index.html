@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Danger Zone</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<main class="container">
+			<section class="danger-card">
+				<header>
+					<h1>Missile Control</h1>
+					<p>These actions cannot be undone.<br /></p>
+				</header>
+
+				<div class="button-group">
+					<button class="launch" onclick="launchMissile()">
+						Launch Missile
+					</button>
+
+					<button class="destruct" onclick="selfDestruct()">
+						Self Destruct
+					</button>
+				</div>
+			</section>
+		</main>
+
+		<script src="script.js"></script>
+	</body>
+</html>
